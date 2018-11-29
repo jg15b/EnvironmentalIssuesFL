@@ -1,0 +1,143 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media screen and (max-width: 1060px) {
+    .container {
+        width: 90%;
+    }
+    .half_container { /* provides a two column presentation */
+        width: 80%;
+        float: none;
+        overflow: hidden;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #title-page{
+        width: 100%;
+        padding-top: 100px; 
+    }
+    #splash{
+        height:748px;
+    }   
+    ul#menu li a.button {
+        font-size: 20px;
+        text-decoration: none;
+        /* this padding defines the size of the buttons */
+        padding: 20px 75px;
+        color: #F07636;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    ul#menu li a.button {
+        font-size: 20px;
+        text-decoration: none;
+        /* this padding defines the size of the buttons */
+        padding: 20px 32px;
+        color: #F07636;
+        }
+    img {
+        width: 100%;
+        height: auto;
+        }
+    #credits img{
+        width: 100px;   
+    }
+    #title-page{
+        margin-top: auto;
+        width: 100%;
+        padding-top: 0px;
+    }
+    #splash{
+        height: 100%;
+    }
+    p {
+        font-size: 1em;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+    #title-page h1 {
+        font-family: 'Saira Extra Condensed', sans-serif;
+        font-size: 2em; 	
+        text-shadow: 3px 3px #000; /* Shadow helps text to stand out from background */
+      }
+      #title-page h3 {
+        font-size: 1em;
+        font-style: italic;
+        margin: auto;
+        text-shadow: 2px 2px #000;
+      }
+}
+
+@media screen and (max-width: 480px) {
+    ul#menu li a.button {
+        font-size: 0.9em;
+        text-decoration: none;
+        /* this padding defines the size of the buttons */
+        padding: 10px;
+        color: #F07636;
+    }
+    #title-page{
+        margin-top: auto;
+        width: 100%;
+        padding-top: 0px;
+    }
+    #splash{
+        height:100%;
+    }
+    p {
+        font-size: 1em;
+    }
+    h1 {
+        font-size: 1.3em;
+    }
+    #title-page h1 {
+        font-family: 'Saira Extra Condensed', sans-serif;
+        font-size: 2em; 	
+        text-shadow: 3px 3px #000; /* Shadow helps text to stand out from background */
+      }
+    #title-page h3 {
+        font-size: 1em;
+        font-style: italic;
+        margin: auto;
+        text-shadow: 2px 2px #000;
+      }
+}
+
+@media screen and (max-width: 320px) {
+    ul#menu li a.button {
+        font-size: 0.9em;
+        text-decoration: none;
+        /* this padding defines the size of the buttons */
+        padding: 5px;
+        color: #F07636;
+    }
+    #title-page{
+        margin-top: auto;
+        width: 100%;
+        padding: 0px;
+    }
+    #splash{
+        height:100%;
+    }
+    p {
+        font-size: 0.9em;
+    }
+    h1 {
+        font-size: 1em;
+    }
+    #title-page h1 {
+        font-family: 'Saira Extra Condensed', sans-serif;
+        font-size: 2em; 	
+        text-shadow: 3px 3px #000; /* Shadow helps text to stand out from background */
+      }
+      #title-page h3 {
+        font-size: 1em;
+        font-style: italic;
+        margin: auto;
+        text-shadow: 2px 2px #000;
+      }
+}
+
+
