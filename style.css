@@ -52,7 +52,7 @@ a:hover {
 
 #splash{
     height:1000px;
-    background: url("images/heron.jpg") no-repeat center top;
+    background: url("heron.jpg") no-repeat center top;
 		background-size: cover;
 }
 #overview{
@@ -72,7 +72,7 @@ a:hover {
 		color: #FFF2CC;
 		/*padding: 20px 100px 20px 250px;*/
 		padding-top: 20px;
-		background: url("images/water.jpg") no-repeat center top;
+		background: url("water.jpg") no-repeat center top;
 }
 #footer{
     background-color:#548235;
